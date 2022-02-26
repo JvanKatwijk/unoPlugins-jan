@@ -85,7 +85,7 @@ itself will shift to the strongest signal. Shifting goes reasonably fast
 and if no signal is detected nothing will happen.
 The software will try - within a reasonable range - to detect the transmission
 speed. An indicator for the speed can be set.
-![2](/cw-wdget.png?raw=true)
+![2](/cw-widget.png?raw=true)
 
  * a plugin for PSK. PSK is a difficult signal, it's bandwidth is small
 and there is a great variety in "modes" and settings. Here as well, the
@@ -93,17 +93,17 @@ software tries within a reasonable range to shift to the strongest signal,
 important since a frequency offset of half a dozen Hz will make decoding
 difficult or even impossible. The plugin has a variety of selectors
 for different settings
-![3](/psk-wdget.png?raw=true)
+![3](/psk-widget.png?raw=true)
 
  * a plugin for RTTY. Amateur RTTY has a width of 170 Hz, and a baudrate
 of 45. Some weather forecasts use a baudrate of 100 and a width of 800 Hz.
 Of  course, the plugin contains a number of selectors for setting baudrate
 and signal width.
-![4](/rtty-wdget.png?raw=true)
+![4](/rtty-widget.png?raw=true)
 
  * a plugin for NavTex. On 518 KHz coastguards transmit data.
 The signal has a baudrate of 100, and a frequency shift of 170 Hz.
-![5](/navtex-wdget.png?raw=true)
+![5](/navtex-widget.png?raw=true)
 
 * a plugin for weatherfax. Weatherfaxes are still transmitted on
 shortwave (here a.o 3855 KHz, 4610 KHz). The weatherfax plugin
@@ -111,7 +111,7 @@ is able to synchronize on an incoming transmission (although there is
 a "cheat"  button to skip the synchronization phase) and
 will show a fax signaal. The plugin can save the picture - actually
 is the original format, while on the display the format is reduced).
-![6](/fax-wdget.png?raw=true)
+![6](/fax-widget.png?raw=true)
 
 ---------------------------------------------------------------------
 Dependencies
