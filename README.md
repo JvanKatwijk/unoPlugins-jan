@@ -129,30 +129,20 @@ is the original format, while on the display the format is reduced).
 ---------------------------------------------------------------------
 Dependencies
 --------------------------------------------------------------------
+It turns out that not all required DLL's are automatically installed on your system
+Since I compile this stuff with MSVC, the required dll's were installed.
+If you do not have MSVC installed follow the rules:
+	
+    Install the software via Windows Update.
+    Download Visual C++ Redistributable for Visual Studio 2015 from Microsoft directly.
+    Install or Repair the Visual C++ Redistributable for Visual Studio 2015 on your computer.
 
-The dependency analyser states that the plugins need the following
-dll's to be available in C:\Windows\SysWOW64
-
-	Kernel32.dll
-	user32.dll
-	gdi32.dll
-	COMDLG32.dll
-	SHELL32.dll
-	MSVCP140.dll
-	VCRUNTIME140.dll
-
-	ucrtbase.dll
 
 The AAC decoder in the drm plugin further needs
 	libfdk-aac-2.dll, which needs
 	libgcc_a_dw2-1.dll, which on its turn needs
 	libwinpthread-1.dll
 
-
-
-
-	
-	
 
 
 
