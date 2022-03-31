@@ -138,7 +138,9 @@ If you do not have MSVC installed follow the rules:
     Install or Repair the Visual C++ Redistributable for Visual Studio 2015 on your computer.
 
 
-The AAC decoder in the drm plugin further needs
+Note that the AAC decoder in the drm plugin further needs some more plugins.
+there are included in the repository
+
 	libfdk-aac-2.dll, which needs
 	libgcc_a_dw2-1.dll, which on its turn needs
 	libwinpthread-1.dll
