@@ -164,7 +164,6 @@ is the original format, while on the display the format is reduced).
 
 ![6](/fax-widget.png?raw=true)
 
-
 --------------------------------------------------------------------------
 Copyright and license
 --------------------------------------------------------------------------
