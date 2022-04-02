@@ -18,25 +18,63 @@ in my Linux software is Qt, and the plugins are developed for a
 framework in "nana".
 
 ---------------------------------------------------------------------
-Note on installation and use
+IMPORTANT Note on installation and use
 ----------------------------------------------------------------------
 
-The "folder" (while we normally would say "directory" in programming
-enviropnments I'm used to, I'll accept some Windows terminology)
-contains, the plugins, each named "SDRunoPlugin_XXX", where the XXX is replaced by a recognizable function name. These plugins should be installed in
-the "folder" for the community plugins.
+The Plugins are the ones starting with "SDRunoPlugin_", for each a
+brief description is given below.
 
-Some plugins need some help, i.e. other dll's where they depend on.
-These dll's  libfdk-aac-2.dll, libgcc_s_dw2-1.dll and libwinpthread-1.dll
-are included in this "folder". They should be placed in a folder such that the Windows loader can find them. I use "C:\Program Files (x86)\SDRplay\SDRuno",
-of course "C:\Windows\SysWOW64" also will do.
+While these plugins run fine on my W10 Box (W10 home edition), there
+are sometimes questions from people who notice that the plugin fails
+to load. This is especially the case with the plugins for the weatherfax
+and the navTex. They share the possibility of saving output to a file.
 
-Note that the plugins depend on quite some more dll's, most of them
-are normally installed on a Windows box, but sometimes I got signals
-that a plugin would not load, the cause being some dll missing.
+Now since I am completely ignorant about windows (and hope to stay that
+for a very long time), I only can tell that it seems that some dll's
+are missing. 
 
-For Windows dll's required for loading and running these plugins, see
-the end of this "README".
+YOU CAN CHECK WHETHER OR NOT DLL'S ARE MISSING BY APPLYING THE DEPENDENCY
+CHECKER ON THE PLUGINS ON YOUR SYSTEM. A ZIPPED VERSION OF THE 
+DEPENDENCY CHECKER IS IN THIS FOLDER. JUST DOWNLOAD IT TO E.G. "Downloads",
+UNZIP IT WHICH WILL GIVE A FOLDER "Dependencies_x64_Release",
+GO INTO THE UNPACKED FOLDER AND START "DependenciesGui".
+
+Use the File button on the opened widget and, from the folder where
+the community plugins are stored, in my case
+"c:\Documents and Settings\xxx\Source\Repos\plugin\", select the plugin
+you want to investigate
+
+![1](/dependency-checker.png?raw=true)
+
+The result will be shown, as in the picture. If dll's are missing or cannot
+be loaded properly it will clearly be indicated.
+
+The dependency analyser states that the plugins need the following
+dll's to be available in C:\Windows\SysWOW64
+
+	Kernel32.dll
+	user32.dll
+	gdi32.dll
+	COMDLG32.dll
+	SHELL32.dll
+	MSVCP140.dll
+	VCRUNTIME140.dll
+
+	ucrtbase.dll
+
+The AAC decoder in the drm plugin further needs
+	libfdk-aac-2.dll, which needs
+	libgcc_a_dw2-1.dll, which on its turn needs
+	libwinpthread-1.dll
+
+
+How do I fix the api-ms-win-crt-runtime-l1-1-0. dll  or other missing
+dll error?
+
+Install the software via Windows Update.
+Download Visual C++ Redistributable for Visual Studio 2015 from Microsoft directly.
+Install or Repair the Visual C++ Redistributable for Visual Studio 2015 on your computer.
+
 
 -------------------------------------------------------------------------
 Setting samplerates in SDRuno for these plugins
@@ -125,35 +163,6 @@ will show a fax signaal. The plugin can save the picture - actually
 is the original format, while on the display the format is reduced).
 
 ![6](/fax-widget.png?raw=true)
-
----------------------------------------------------------------------
-Dependencies
---------------------------------------------------------------------
-
-The dependency analyser states that the plugins need the following
-dll's to be available in C:\Windows\SysWOW64
-
-	Kernel32.dll
-	user32.dll
-	gdi32.dll
-	COMDLG32.dll
-	SHELL32.dll
-	MSVCP140.dll
-	VCRUNTIME140.dll
-
-	ucrtbase.dll
-
-The AAC decoder in the drm plugin further needs
-	libfdk-aac-2.dll, which needs
-	libgcc_a_dw2-1.dll, which on its turn needs
-	libwinpthread-1.dll
-
-
-
-
-	
-	
-
 
 
 --------------------------------------------------------------------------
