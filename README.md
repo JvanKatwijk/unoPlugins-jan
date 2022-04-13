@@ -10,12 +10,13 @@ Most of my software is developed under Linux, runs under Linux
 and is cross compiled for Windows. 
 
 One of my programs is a "shortwave" receiver, a program with about 10
-decoders for various formats, such as CW, weatherfax, etc etc.
+decoders for various formats, such as CW, weatherfax, dr, psk, etc etc.
 
 The plugins are developed as (almost) windows "mirrors"  of these
 decoders. It is "almost" since the framework I am using
-in my Linux software is Qt, and the plugins are developed for a
-framework in "nana".
+in my Linux software is Qt and the gcc compiler collection,
+and the plugins are developed for a framework in "nana", using the MSVC
+"development"  environment.
 
 ---------------------------------------------------------------------
 IMPORTANT Note on installation and use
@@ -80,9 +81,10 @@ Install or Repair the Visual C++ Redistributable for Visual Studio 2015 on your 
 Setting samplerates in SDRuno for these plugins
 -------------------------------------------------------------------------
 
-The current version of these plugins use the so-called SP1 entry.
+The current version of these plugins use the so-called IQout entry.
 This entry outputs an incoming signal, decimated to 192000 Samples per second
-(note that unfortunately, the I and Q component are interchanged);
+(note that unfortunately, the I and Q component are interchanged,
+a better name would be the QIout entry);
 
 So, while the previous version of these plugins required  the
 user to set the input rate in SDRuno to 2 MHz, and the decimation factor to
@@ -159,10 +161,15 @@ The signal has a baudrate of 100, and a frequency shift of 170 Hz.
 shortwave (here a.o 3855 KHz, 4610 KHz). The weatherfax plugin
 is able to synchronize on an incoming transmission (although there is
 a "cheat"  button to skip the synchronization phase) and
-will show a fax signaal. The plugin can save the picture - actually
-is the original format, while on the display the format is reduced).
+will show a fax signaal.
+A Wefax576 signal  has a width of about 1800 pixels and a length of 1200
+lines, it is shown as a 900 x 600 picture. However, if the picture
+is saved, the format of the saved picture is the original 1800 x 1200
+size.
 
 ![6](/fax-widget.png?raw=true)
+
+The current version, version 2, now saves all settings between invocations/
 
 --------------------------------------------------------------------------
 Copyright and license
