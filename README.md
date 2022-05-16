@@ -173,8 +173,10 @@ The current version, version 2, now saves all settings between invocations/
 
 ![6](/ft8-plugin.png?raw=true)
 
-An experimental ft8 decoder.
-Still working on it.
+An experimental ft8 decoder. The Windows version contains an error such
+that the software may crash. The Linux version from which it is derived
+does not, so identifying the error in the plugin is beyond my capabilities.
+Use the plugin at your own risk.
 
 
 --------------------------------------------------------------------------
