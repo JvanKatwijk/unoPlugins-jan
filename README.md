@@ -171,10 +171,6 @@ size.
 
 The current version, version 2, now saves all settings between invocations/
 
-![6](/ft8-plugin.png?raw=true)
-
-An experimental ft8 decoder.
-
 
 --------------------------------------------------------------------------
 Copyright and license
