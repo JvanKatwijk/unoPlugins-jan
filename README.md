@@ -105,6 +105,9 @@ bandwidth.
 The plugins
 --------------------------------------------------------------------
 
+Note that for each plugin the dll and a small pdf describing the plugin 
+is now clustered into a directory with the name of the plugin
+
 -------------------------------------------------------------------
 Note on drm
 -------------------------------------------------------------------
@@ -170,6 +173,15 @@ size.
 ![6](/fax-widget.png?raw=true)
 
 The current version, version 2, now saves all settings between invocations/
+
+* a plugin for FT8 decoding. In FT8 mode, short messages are sent, 
+less than 13 seconds, encoded in 7 tones (3 bits per tone) with a 
+tone distance of just over 6 Hz.
+The FT8 decoder plugin helps in decoding these messages, furthermore,
+it allows sending data, extracted from these messages to the s0-called
+PSKReporter, a website making the reporters, the "monitors" visible.
+
+![7](/ft8-widget.png?raw=true)
 
 
 --------------------------------------------------------------------------
