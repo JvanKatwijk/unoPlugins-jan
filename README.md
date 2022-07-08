@@ -123,7 +123,7 @@ DRM is transmitted on shortwave (a variant, DRM+ is transmitted in the good
 old FM broadcast bands), and is - as the name suggests - a form of
 digital radio.
 The common DRM signals have a spectrum width of 10 KHz,  and a transmission
-can carry ip to 4 streams, although I have never seen a transmission with 
+can carry up to 4 streams, although I have never seen a transmission with 
 more than 2 streams.
 The current version supports AAC and - slightly experimental - xHE-AAC. It is
 experimental since testing xHE-AAC decoding is with only two input files.
