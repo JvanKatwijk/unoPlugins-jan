@@ -183,6 +183,14 @@ PSKReporter, a website making the reporters, the "monitors" visible.
 
 ![7](/ft8-widget.png?raw=true)
 
+* an EXPERIMENTAL plugin for acars decoding. Het Acars protocol is a
+protocol for digital data transmission betweeb airplane and ground station.
+The transmissions take place in the VHF band, about 131 MHz.
+The plugin - using the Msk decoding implementation of the Acars
+decoder of Thierry Leconte - supports decoding a single channel,
+selectable though the GUI.
+
+![8](/acars-decoder.png?raw=true)
 
 --------------------------------------------------------------------------
 Copyright and license
