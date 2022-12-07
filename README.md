@@ -192,6 +192,19 @@ selectable though the GUI.
 
 ![8](/acars-decoder.png?raw=true)
 
+* a VERY EXPERIMENTAL plugin for ce decoding. Other than the regular plugin
+the plugin here converts the data into the frequency domain and
+uses the data in a selection of (successive) bins  to decode data
+(each bin has a width of less than 200 Hz).
+Decoded data from each bin is shown - obviously in successive lines.
+The accuracy of the decoding might help selecting the right frequency
+of the data for decoding. Personally I am not (yet) satisfied with the
+quality of the decoding.
+The plugin lets you choose the number of bins to use in decoding,
+and setting the "center" of the group of selected bins.
+
+![8](/skimmer-2.png?raw=true)
+
 --------------------------------------------------------------------------
 Copyright and license
 --------------------------------------------------------------------------
