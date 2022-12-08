@@ -203,7 +203,7 @@ quality of the decoding.
 The plugin lets you choose the number of bins to use in decoding,
 and setting the "center" of the group of selected bins.
 
-![8](/skimmer-2.png?raw=true)
+![9](/skimmer-2.png?raw=true)
 
 --------------------------------------------------------------------------
 Copyright and license
