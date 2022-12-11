@@ -1,8 +1,11 @@
 
-IMPORTANT MESSAGE
+It turned out that while correcting an error another error was introduced.
+The error - essentially a type - caused the use of the wrong variable
+at a crucial place. It seems repaired.
 
-	Since there were messages from several people that 
-	apparently the plugin did not show what they expected
-	I decided to withdraw that plugin until it is clear to me
-	what caused the (apparent) problem
+Furthermore, there are 2 plugins, one for a single channel,
+and one for a group of channels, ordered countrywise
+
+See the manual
+
 
