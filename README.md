@@ -195,18 +195,18 @@ channels. Countries - with channels grouped - can be selected.
 ![8](/acars-widget.png?raw=true)
 ![9](/acars-M.png?raw=true)
 
-* a VERY EXPERIMENTAL plugin for ce decoding. Other than the regular plugin
+* a VERY EXPERIMENTAL plugin for cw decoding. Other than the regular plugin
 the plugin here converts the data into the frequency domain and
-uses the data in a selection of (successive) bins  to decode data
+uses that data in a selection of (successive) bins  to decode data
 (each bin has a width of less than 200 Hz).
-Decoded data from each bin is shown - obviously in successive lines.
+Decoded data from selected bin is shown, the bin from the central frequency as central bin.
 The accuracy of the decoding might help selecting the right frequency
 of the data for decoding. Personally I am not (yet) satisfied with the
 quality of the decoding.
 The plugin lets you choose the number of bins to use in decoding,
 and setting the "center" of the group of selected bins.
 
-![10](/skimmer-2.png?raw=true)
+![10](/skimmer-plugin.png?raw=true)
 
 --------------------------------------------------------------------------
 Copyright and license
