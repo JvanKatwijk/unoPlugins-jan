@@ -19,7 +19,24 @@ and the plugins are developed for a framework in "nana", using the MSVC
 "development"  environment.
 
 ---------------------------------------------------------------------
-IMPORTANT Note on installation and use
+Important note
+---------------------------------------------------------------------
+
+The plugins in the directory are tested on my W10 box with SDRuno and
+they work fine - again - on my W10 box.
+Knowing windows, it is not ruled out that on YOUR system the plugin
+does not work correctly.
+While that mught be disappointing, note that the plugins are 
+made available "as is", the license clearly states
+
+	The software - either as source or as dll - is made available
+	under a GNU GPLV2 in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.</i>
+
+---------------------------------------------------------------------
+Note on installation and use
 ----------------------------------------------------------------------
 
 The Plugins are the ones starting with "SDRunoPlugin_", for each a
@@ -216,10 +233,8 @@ Copyright and license
 	with me. Of course the copyrights of the owners of these rights
 	of the additional dll's is gratefully acknowledged.
 
-	The software - either is source or as dll - is made available
-	under a GNU GPLV2, meaning that anyone is allowed to look at
-	the software and modify or extend the software, under the
-	restriction that all these modications and/or additions are
-	made available under the same conditions as this software
-	is available
+    The software is available under a GPL V2 license, i.e. hoping that
+    it helps you, but no garantee
+
+    
 
