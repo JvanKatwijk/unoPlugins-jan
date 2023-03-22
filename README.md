@@ -36,6 +36,22 @@ made available "as is", the license clearly states
     GNU General Public License for more details.</i>
 
 ---------------------------------------------------------------------
+Note on cwDecoder
+---------------------------------------------------------------------
+
+I got some complaints that the cwDecoder caused a crash of SDRuno.
+Since it wirked fine on my laptop, it was difficult to figure out what was 
+wromg. Running it on a friends PC with windows, after a couple of dozens
+of times loading an unloading the plugin, it happened: a crash,
+and the behaviour was repeatable. With that, I (think I) found the
+culprit, a timing issue, which is consistent with the fact that
+the error was sporadic.
+
+Anyway, I rewrote parts of both the cw decoder and the fax decoder,
+both contained code that could cause an error under certain timing
+behaviour.
+
+---------------------------------------------------------------------
 Note on installation and use
 ----------------------------------------------------------------------
 
