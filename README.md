@@ -7,7 +7,7 @@ To ease installation, I put ALL dll's required for some of the
 plugins into a folder "required dll".
 
 Install these dll's to an appropriate place on your system, e.g.
-C:\Program Files(x86)\SDRplay
+C:\Program Files(x86)\SDRplay\SDRuno
 
 ---------------------------------------------------------------------
 Important note
