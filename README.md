@@ -1,6 +1,6 @@
 
 -----------------------------------------------------------------------
-BEFORE YOU START READ THE DOCUMENTATION
+*************BEFORE YOU START READ THE DOCUMENTATION***************
 ---------------------------------------------------------------------
 
 To ease installation, I put ALL dll's required for some of the
@@ -31,8 +31,8 @@ made available "as is", the license clearly states
 Copyright and license
 --------------------------------------------------------------------------
 
-	All these plugins are created by me, Copyright will be
-	with me. Of course the copyrights of the owners of these rights
+	Plugins are written by me. Copyright is with me.
+	Of course the copyrights of the owners of these rights
 	of the additional dll's is gratefully acknowledged.
 
 	The software is available under a GPL V2 license, i.e. hoping that
