@@ -1,17 +1,5 @@
 
 
-----------------------------------------------------------------------
-IMPORTANT NOTE ON SDRunoPlugin+wspr
-----------------------------------------------------------------------
-
-It turns out that - apparently occasionally - the plugin will
-stop spontanrously and block further progress.
-The phenomenon cannot (yet) forced to happen, so the cause
-is most likely an uninitiaized variable or writing of data outside
-array bounds.
-
-I am working on it!!
-
 -----------------------------------------------------------------------
 *************BEFORE YOU START READ THE DOCUMENTATION***************
 ---------------------------------------------------------------------
@@ -38,7 +26,6 @@ made available "as is", the license clearly states
 	but WITHOUT ANY WARRANTY; without even the implied warranty of
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.</i>
-
 
 --------------------------------------------------------------------------
 Copyright and license
