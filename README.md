@@ -1,11 +1,9 @@
+---------------------------------------------------------------------
+Recent changes
+---------------------------------------------------------------------
 
-----------------------------------------------------------------------
------------A NOTE ON THE WSPR PLUGIN----------------------------------
-----------------------------------------------------------------------
-
-The wspr plugin caused an occasional crash, so it most likely contained
-an error. It took a while before I discovered a stupid one, the first
-element of an empty queue was accessed. Typically a beginner's error
+Based on user's request, the FT8 plugin now has a selector for filtering
+the output to "just" CQ's.
 
 
 -----------------------------------------------------------------------
