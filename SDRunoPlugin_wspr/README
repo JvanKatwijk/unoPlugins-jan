@@ -35,3 +35,10 @@ In the Linux version decoding is dome by firing a single thread in which
 the function is executed.
 
 
+In the current version two errors were fixed, a minor though annoying one
+was that - when switching the frequency while running, the report - based
+on the data on the old frequency - is reported as being derived from data
+on the new frequency.
+The second error was more serious, touching the "reset" button often
+made the software to crash
+

@@ -5,7 +5,7 @@ Recent changes
 Based on user's request, the FT8 plugin now has a selector for filtering
 the output to "just" CQ's.
 
-The duthc word "gevonden" in the output of the wspr plugin is changed
+The dutch word "gevonden" in the output of the wspr plugin is changed
 into "detected"
 
 -----------------------------------------------------------------------
