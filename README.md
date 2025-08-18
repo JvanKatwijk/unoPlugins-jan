@@ -47,4 +47,3 @@ Copyright and license
 	it helps you, but no garantee
 
     
-
